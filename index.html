@@ -6,9 +6,64 @@
 
 		<body>
 
+			<script>
+
+				var scottsArray = [1, 2, 3];
+
+				
+
+				scottsArray.push(4);
+				//.push adds to the end
+				//.unshift adds to the beginning
+				//pop removes from the end
+				//shift - removes from the beginning
+
+				console.log(scottsArray.length);
+
+				scottsArray.pop();
+
+				console.log (scottsArray.length);
+
+				var someNumber = "3"
+				//parseInt changes a string to a number
+				someNumber = parseInt(someNumber);
+				console.log (someNumber);
+
+				//tostring changes a number to a string
+
+				someNumber = someNumber.toString();
+
+				console.log(scottsArray);
+
+				for (var i = 0; i<scottsArray.length; i++){
+					scottsArray[i] = scottsArray[i].toString();
+				}
+
+				console.log (scottsArray);
+
+				var someAwesomeString = "Joel is awesome";
+
+				for(i=0;i<someNumber.length; i++){
+					console.log(someAwesomeString.charAt(i));
+				}
+				//chartAt gives us a certain character at the noted poisiton
+
+				function augmentA(val){
+					return val;
+				}
+				console.log (augmentA(6));
+
+				var area = function (width, height){
+					return width*height;
+				}
+
+				
 
 
 
+
+
+			</script>
 
 		</body>
 </html>
